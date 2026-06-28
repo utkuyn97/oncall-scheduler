@@ -8,6 +8,13 @@ Google OR-Tools CP-SAT and driven from a small Streamlit UI.
 > *"Piket"* is Dutch for on-call / picket duty — the original use case was a rotating
 > engineering on-call rota.
 
+## Screenshot
+
+![On-call scheduler UI — 6 engineers over 10 weeks producing an OPTIMAL, fairness-balanced rota](docs/screenshot.png)
+
+*Demo run (placeholder names): the solver returns an **OPTIMAL** assignment with each
+person's weekday duties balanced to within 1, respecting per-person forbidden days.*
+
 ## What it does
 
 Hand-building an on-call schedule is deceptively hard: everyone should do a roughly
